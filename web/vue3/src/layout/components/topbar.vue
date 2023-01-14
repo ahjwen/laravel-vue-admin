@@ -70,7 +70,7 @@ export default defineComponent({
       if (trim(avatar) == "") {
         return defaultAvatar;
       }
-      return url;
+      return avatar;
     }
 
     return {
